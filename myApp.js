@@ -1,7 +1,7 @@
 const express = require('express');
 const helmet = require('helmet');
-helmet.hidePoweredBy();
-const app = express();
+const app = epress();
+app.use(helmet.hidePoweredBy());
 
 
 
